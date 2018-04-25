@@ -108,3 +108,6 @@ venv.bak/
 .mypy_cache/
 
 /ponynote/frontend/node_modules/
+/ponynote/assets/
+/ponynote/webpack-stats.prod.json
+/ponynote/webpack-stats.dev.json
