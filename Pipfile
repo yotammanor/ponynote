@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "==0.12.1"
+numpy = "*"
+requests = {git = "https://github.com/requests/requests.git", editable = true}
+django = "*"
+django-webpack-loader = "*"
+
+[dev-packages]
+pytest = "*"
+
+[requires]
+python_version = "3.6"
